@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a41f74b35ca55ca4d8012d46a6bf008f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - basePrefab: {fileID: 1994090521701562497, guid: 310e106ca0954b746a3e56a1f6d1f243, type: 3}
+  - hilltopTowerPrefab: {fileID: 1994090521701562497, guid: 66aeabeb4d550d94797510d311107176, type: 3}
+  - innerTowerPrefab: {fileID: 1994090521701562497, guid: bb0ed2c787ddb9645954f3402d3a391b, type: 3}
+  - outerTowerPrefab: {fileID: 1994090521701562497, guid: dbb2d7c854b8b424aabea1d4eee21713, type: 3}
+  - junglePrefab: {fileID: 202055198615072856, guid: 15f236897a8bc3a49a91dfc1750d0492, type: 3}
+  - unit1Prefab: {fileID: 202055198615072856, guid: 40d9bc5c3d1f33146b07a7b89c4eae7f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6616143182402707852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8819334577194969912}
+  - component: {fileID: 7250653185879458742}
+  - component: {fileID: 8308209040238021152}
+  - component: {fileID: -4893726181496229995}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8819334577194969912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6616143182402707852}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7250653185879458742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6616143182402707852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 1239898801
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+--- !u!114 &8308209040238021152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6616143182402707852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41f74b35ca55ca4d8012d46a6bf008f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basePrefab: {fileID: 1994090521701562497, guid: 310e106ca0954b746a3e56a1f6d1f243, type: 3}
+  hilltopTowerPrefab: {fileID: 1994090521701562497, guid: 66aeabeb4d550d94797510d311107176, type: 3}
+  innerTowerPrefab: {fileID: 1994090521701562497, guid: bb0ed2c787ddb9645954f3402d3a391b, type: 3}
+  outerTowerPrefab: {fileID: 1994090521701562497, guid: dbb2d7c854b8b424aabea1d4eee21713, type: 3}
+  junglePrefab: {fileID: 202055198615072856, guid: 15f236897a8bc3a49a91dfc1750d0492, type: 3}
+  unitChipmunkPrefab: {fileID: 202055198615072856, guid: 40d9bc5c3d1f33146b07a7b89c4eae7f, type: 3}
+  unitRabbitPrefab: {fileID: 202055198615072856, guid: f61ac26948ecec04cb3808179804b8a0, type: 3}
+  unitCatPrefab: {fileID: 202055198615072856, guid: 1a79462b65520f9498ba4262ae5a5cc5, type: 3}
+  unitChickenPrefab: {fileID: 202055198615072856, guid: c9724685b103ebf48bbb5659178a256d, type: 3}
+  unitDogPrefab: {fileID: 202055198615072856, guid: 6a6b4f6fda37d984682d2582e414c36d, type: 3}
+  unitDuckPrefab: {fileID: 202055198615072856, guid: d7ce6b42de4e25142af04a426e853b76, type: 3}
+  unitPandaPrefab: {fileID: 202055198615072856, guid: 9f9bfb8dbc1fb2a4594f02c96d51a5af, type: 3}
+  unitMonkeyPrefab: {fileID: 202055198615072856, guid: 96d43bb92bb7ba64eac1d216136769d9, type: 3}
+  unitDeerPrefab: {fileID: 202055198615072856, guid: 19816110dc1cef946bfd83996d3dc2ff, type: 3}
+  unitBearPrefab: {fileID: 202055198615072856, guid: 5b40ecd3db566be46bf3b401469ed4b1, type: 3}
+  unitMoosePrefab: {fileID: 202055198615072856, guid: d4f20a913aec47245a51f04880d7515f, type: 3}
+  unitCrocPrefab: {fileID: 202055198615072856, guid: 5e58c33afcda79b4382c568eca5b6d40, type: 3}
+  unitHippoPrefab: {fileID: 202055198615072856, guid: 1e3b908bb9b17334ea9d4bcfa28859df, type: 3}
+  unitRhinoPrefab: {fileID: 202055198615072856, guid: b4ce55fa29043bb4189291a5cb30b4ec, type: 3}
+  topLaneSelectedUnit:
+    m_InternalValue: 1
+  midLaneSelectedUnit:
+    m_InternalValue: 1
+  botLaneSelectedUnit:
+    m_InternalValue: 1
+  lanesRootPrefab: {fileID: 7289854353470130630, guid: f1e3e77e4833e7d4c8269593c1d1d1c5, type: 3}
+  laneContainerPrefab: {fileID: 5138180195021410506, guid: 75d4e60dd362c364b9fe6c8b9eb3beac, type: 3}
+  unitsContainerPrefab: {fileID: 4683098024488941834, guid: f0120c9ccc361514b9a75830e1fe0e90, type: 3}
+--- !u!114 &-4893726181496229995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6616143182402707852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseUnreliableDeltas: 0
+  SyncPositionX: 1
+  SyncPositionY: 1
+  SyncPositionZ: 1
+  SyncRotAngleX: 1
+  SyncRotAngleY: 1
+  SyncRotAngleZ: 1
+  SyncScaleX: 1
+  SyncScaleY: 1
+  SyncScaleZ: 1
+  PositionThreshold: 0.001
+  RotAngleThreshold: 0.01
+  ScaleThreshold: 0.01
+  UseQuaternionSynchronization: 0
+  UseQuaternionCompression: 0
+  UseHalfFloatPrecision: 0
+  InLocalSpace: 0
+  Interpolate: 1
+  SlerpPosition: 0
